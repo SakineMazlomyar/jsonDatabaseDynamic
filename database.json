@@ -1,1 +1,30 @@
-{"numberOfvister":33,"fruits":["banana","orange","cucumber"],"register":[{"mail":"sakine","password":"mazlomyar"},{"mail":"s","password":"s"},{"mail":"a","password":"a"},{"mail":"sona","password":"sonai"},{"mail":"mnm","password":"mnm"}]}
+{
+    "numberOfvister": 36,
+    "fruits": [
+        "banana",
+        "orange",
+        "cucumber"
+    ],
+    "register": [
+        {
+            "mail": "sakine",
+            "password": "mazlomyar"
+        },
+        {
+            "mail": "s",
+            "password": "s"
+        },
+        {
+            "mail": "a",
+            "password": "a"
+        },
+        {
+            "mail": "sona",
+            "password": "sonai"
+        },
+        {
+            "mail": "mnm",
+            "password": "mnm"
+        }
+    ]
+}
