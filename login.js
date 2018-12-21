@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $("#ajax").on("submit", function(event){
-        //event.preventDefault()
+        event.preventDefault()
         console.log("sakine")
 
         /* 
