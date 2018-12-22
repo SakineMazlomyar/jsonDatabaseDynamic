@@ -1,5 +1,5 @@
 {
-    "numberOfvister": 36,
+    "numberOfvister": 39,
     "fruits": [
         "banana",
         "orange",
@@ -25,6 +25,10 @@
         {
             "mail": "mnm",
             "password": "mnm"
+        },
+        {
+            "mail": "r",
+            "password": "r"
         }
     ]
 }
