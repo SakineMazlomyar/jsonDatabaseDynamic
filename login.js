@@ -1,7 +1,7 @@
 $(document).ready(function(){
   
     $("#ajax").on("submit", function(event){
-        //event.preventDefault()
+        event.preventDefault()
         var that = $(this),
         contents = that.serialize();
   
@@ -11,7 +11,7 @@ $(document).ready(function(){
             url: 'login-json-attempt.php',
             data: contents,
             success: function(data){
-               
+               console.log(data)
                 if(data.success){
                     console.log(data.success)
                 }else{
