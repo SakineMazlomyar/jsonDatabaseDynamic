@@ -9,7 +9,7 @@
     <body>
     <?php
 
-    $loginIsClicked = isset($_POST["login-button"]);
+    $loginIsClicked = isset($_POST["ajax-button"]);
     if($loginIsClicked){
 
         $mail = $_POST["mail"];
