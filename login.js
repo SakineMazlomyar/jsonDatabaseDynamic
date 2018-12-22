@@ -1,23 +1,47 @@
 $(document).ready(function(){
-
+  
     $("#ajax").on("submit", function(event){
-        event.preventDefault()
-        console.log("sakine")
-
-        /* 
-        function ajax-button(){
-
+        //event.preventDefault()
+        var that = $(this),
+        contents = that.serialize();
+  
         $.ajax({
-
             type: 'post',
-            url: 'login.php',
-            data: $(this).serialize(),
+            dataType: 'json',
+            url: 'login-json-attempt.php',
+            data: contents,
             success: function(data){
-                console.log(data);
                
+                if(data.success){
+                    console.log(data.success)
+                }else{
+                    console.log('no mail')
+                }
             }
+        })
+   
 
-        });
-        } */
+
+
+        
+        
+
+        
     })
 })
+
+/* function init(){
+
+    var info;
+    fetch("login-json-attempt.php")
+    .then(function(data){
+        return data.json()
+    }).then(function(informationAll){
+        info = informationAll
+        console.log(info);
+        
+    }).catch((error)=> alert("There is an arrow" +error))
+} */
+
+
+
