@@ -28,10 +28,10 @@
 
         <form id="ajax" method="post" action="login-json-attempt.php" style="position: relative; top: 20em;">
             <label>Get your name by ajax</label><br>
-            <input id="mail" name="mail" type="text"><br>
+            <input id="mail" name="name" type="text"><br>
 
             <label>Get your password by ajax</label><br>
-            <input id= "password" name="password" type="text"><br>
+            <input id= "password" name="passwordSecret" type="text"><br>
 
             <input  name="ajaxButton" type="submit">
         <form>
